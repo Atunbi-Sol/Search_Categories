@@ -365,6 +365,10 @@ p {
   .--flex-dir-column {
     flex-direction: column;
   }
+  .product-container {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .--block {
@@ -395,11 +399,7 @@ p {
   margin-bottom: 1rem;
 
   background: rgb(217, 8, 170);
-  background: linear-gradient(
-    135deg,
-    rgba(163, 1, 191, 1) 44%,
-    rgba(217, 8, 170, 1) 57%
-  );
+  background: linear-gradient(135deg, rgba(163, 1, 191, 1) 44%, rgba(217, 8, 170, 1) 57%);
 }
 
 .--list-style-none {
